@@ -23,5 +23,6 @@ namespace WebApplication1
                     webBuilder.UseStartup<Startup>();
                 });
     }
+    //comment
 //comment test branch
 }
