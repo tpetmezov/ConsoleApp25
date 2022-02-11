@@ -20,6 +20,10 @@ namespace WebApplication1
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    //webBuilder.ConfigureKestrel(options =>
+                    //{
+                    //    options.ListenLocalhost(80);
+                    //});
                     webBuilder.UseStartup<Startup>();
                 });
     }
